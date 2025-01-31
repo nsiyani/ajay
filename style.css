@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0d8d8;
+}
+#title{
+    text-align: center;
+    margin-top: 25px;
+}
+#top{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+#top i{
+   margin-top: -50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+#mid{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 100px;
+}
+#first h1{
+    font-size: 120px;
+    line-height: 97px;
+    margin-top: 200px;
+}
+#first button{
+    margin-top: 50px;
+    padding: 12px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: transparent;
+}
+#first button:hover{
+    background-color: rgb(16, 41, 16);
+    transition: 0.8s ease;
+    color: white;
+    
+}
+/* #second{
+    
+    
+    background-size: cover;
+    height: 700px;
+    width: 800px;
+} */
+#s1 h1{
+    margin: 60px 20px;
+    font-size: 50px;
+}
+#third{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 25px;
+}
+#third #f1 img{
+
+    height: 450px;
+    width: 480px;
+   
+}
+#third #f2 img{
+ 
+    height: 600px;
+    width: 480px;
+}
+#third #f3 img{
+
+    height: 450px;
+    width: 480px;
+}
+#third #f1 h1{
+    margin: 10px 0;
+}
+#third #f2 h1{
+    margin: 10px 0;
+}
+#btn{
+    text-align: center;
+    margin: 10px 0;
+}
+#btn button{
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: transparent;
+}
+#btn button:hover{
+    background-color: rgb(16, 41, 16);
+    transition: 0.8s ease;
+    color: white;
+}
+#fourth {
+    margin-top: 50px;
+    background-color: rgb(13, 41, 13);
+    height: 1000px;
+}
+#main{
+    display: flex;
+    
+}
+#main #f1{
+    margin-top: 60px;
+}
+#fourth #f1 img{
+    height: 600px;
+    width: 780px;
+    margin-left: 20px;
+}
+#main #f2{
+    color: white;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+#main #f2 h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+#main #f2 p{
+    font-size: 26px;
+    margin-top: 20px;
+}
+#main a{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+#for{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    margin-top: 70px;
+}
+#frl{
+    display: flex;
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+#frl hr{
+    margin: 60px 5px;
+}
+#f2f{
+    display: flex;
+    justify-content: space-between;
+}
+#f2f #f2{
+    display: flex;
+    margin: 40px 20px;
+}
+#f2img1 img{
+    height: 300px;
+    width: 300px;   
+    margin: 0 10px;
+}
+#f2img2 img{
+    height: 300px;
+    width: 300px;
+}
+#f2f #f2 p{
+    margin: 10px 0;
+}
+#f2f #f1{
+    margin: 6vw 1vw;
+}
+#f2f #f1 button{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 80px;
+    background-color: transparent;
+}
+#f2f #f1 button:hover{
+    background-color: rgb(16, 41, 16);
+    transition: 0.8s ease;
+    color: white;
+}
+#line hr{
+    margin: 50px 20px;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+#last3 a{
+    display: block;
+}
+#last1{
+    height: 300px;
+    width: 2400px;
+    margin: 0 17px;
+}
+#last1 p{
+    margin: 10px 0;
+    
+}
+#last2{
+    margin-left: -10vw;
+    margin-top: 15px;
+    font-size: 20px;
+}   
+#last2 input{
+    padding: 1.5vw 10vw;
+    margin: 30px 0;
+}
+#last2 button{
+    padding: 17px 30px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+#last2 button:hover{
+    background-color: rgb(16, 41, 16);
+    transition: 0.8s ease;
+    color: white;
+}
+/* #last3{
+
+} */
+#last3 a{
+ margin: 1.2vw 5vw;   
+ font-size: 15px;
+ text-decoration: underline;
+}
+
+@media screen and (max-width:500px){
+    #top a{
+        margin: 0 1px;
+        font-size: 13px;
+    }
+    #title h1{
+        font-size: 30px;
+    }
+    #mid {
+        display: block;
+    }
+    #mid h1{
+        font-size: 40px;
+        line-height: 46px;
+        margin-top: -20vw;
+        text-align: center;
+    }
+    #first button{
+        margin: 20px 60px;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    #second img{
+        height: 300px;
+        width: 270px;
+    }
+    #s1 h1 {
+        margin: 30px 20px;
+        font-size: 30px;
+    }
+    #third{
+        display: block;   
+        margin-left: 15px;
+    }
+    #third #f1 img{
+        
+        height: 300px;
+        width: 280px;
+    }
+    #third #f1 h1{
+        font-size: 23px;
+    }
+    #third #f2 img{
+        
+        height: 350px;
+        width: 280px;
+    }
+    #third #f2 h1{
+        font-size: 23px;
+    }
+    #third #f3 img{
+        
+        height: 300px;
+        width: 280px;
+    }
+    #third #f3 h1{
+        font-size: 23px;
+    }
+    #fourth #f1 img {
+        height: 350px;
+        width: 280px;
+        margin: 20px 15px;
+    }
+    #fourth {
+        height: 1450px;
+    }
+    #main{
+        display: block;
+    }
+    #main #f2{
+        margin-left: 15px;
+    }
+    #main #f2 h1 {
+        font-size: 46px;
+        line-height: 40px;
+        margin-top: -60vw;
+    }
+    #main #f2 p {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    #for{
+        font-size: 15px;
+    }
+    #frl{
+        display: block;
+    }
+    #f2f{
+        display: block;
+    }
+    #f2f #f1{
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    #f2f #f2{
+    display: block;
+    margin-left: 5px;
+   }
+   #f2img1 img {
+    height: 300px;
+    width: 280px;
+    margin: 0 10px;
+    }
+    #f2f #f2 p {
+        margin: 10px 12px;
+    }
+    #f2img2 img {
+        height: 300px;
+        width: 280px;
+        margin: 0 10px;
+    }
+    #last{
+        display: block;
+    }
+    #last2 {
+        margin-left: 5vw;
+    }
+    #last2 button{
+        padding: 10px 25px;
+        margin: 1px 0;
+    }
+    #last3{
+       margin-top: 30px;
+    }
+    #last3 a{
+        margin: 10px 22px;
+        font-size: 13px;
+     }
+}
+    

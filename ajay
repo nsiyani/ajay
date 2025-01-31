@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>*{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #e0d8d8;
+    }
+    #title{
+        text-align: center;
+        margin-top: 25px;
+    }
+    #top{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    #top i{
+       margin-top: -50px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        margin: 0 20px;
+    }
+    #mid{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-top: 100px;
+    }
+    #first h1{
+        font-size: 120px;
+        line-height: 97px;
+        margin-top: 200px;
+    }
+    #first button{
+        margin-top: 50px;
+        padding: 12px 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-radius: 40px;
+        background-color: transparent;
+    }
+    #first button:hover{
+        background-color: rgb(16, 41, 16);
+        transition: 0.8s ease;
+        color: white;
+        
+    }
+    /* #second{
+        
+        
+        background-size: cover;
+        height: 700px;
+        width: 800px;
+    } */
+    #s1 h1{
+        margin: 60px 20px;
+        font-size: 50px;
+    }
+    #third{
+        display: flex;
+        justify-content: space-between;
+        margin: 90px 25px;
+    }
+    #third #f1 img{
+    
+        height: 450px;
+        width: 480px;
+       
+    }
+    #third #f2 img{
+     
+        height: 600px;
+        width: 480px;
+    }
+    #third #f3 img{
+    
+        height: 450px;
+        width: 480px;
+    }
+    #third #f1 h1{
+        margin: 10px 0;
+    }
+    #third #f2 h1{
+        margin: 10px 0;
+    }
+    #btn{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #btn button{
+        padding: 12px 35px;
+        border-radius: 50px;
+        font-size: 17px;
+        background-color: transparent;
+    }
+    #btn button:hover{
+        background-color: rgb(16, 41, 16);
+        transition: 0.8s ease;
+        color: white;
+    }
+    #fourth {
+        margin-top: 50px;
+        background-color: rgb(13, 41, 13);
+        height: 1000px;
+    }
+    #main{
+        display: flex;
+        
+    }
+    #main #f1{
+        margin-top: 60px;
+    }
+    #fourth #f1 img{
+        height: 600px;
+        width: 780px;
+        margin-left: 20px;
+    }
+    #main #f2{
+        color: white;
+        margin-top: 220px;
+        margin-left: 40px;
+    }
+    #main #f2 h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    #main #f2 p{
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    #main a{
+        color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #for{
+        font-size: 30px;
+        color: white;
+        margin: 20px;
+        margin-top: 70px;
+    }
+    #frl{
+        display: flex;
+        color: white;
+        margin: 20px;
+        justify-content: space-between;
+        
+    }
+    #frl hr{
+        margin: 60px 5px;
+    }
+    #f2f{
+        display: flex;
+        justify-content: space-between;
+    }
+    #f2f #f2{
+        display: flex;
+        margin: 40px 20px;
+    }
+    #f2img1 img{
+        height: 300px;
+        width: 300px;   
+        margin: 0 10px;
+    }
+    #f2img2 img{
+        height: 300px;
+        width: 300px;
+    }
+    #f2f #f2 p{
+        margin: 10px 0;
+    }
+    #f2f #f1{
+        margin: 6vw 1vw;
+    }
+    #f2f #f1 button{
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 80px;
+        background-color: transparent;
+    }
+    #f2f #f1 button:hover{
+        background-color: rgb(16, 41, 16);
+        transition: 0.8s ease;
+        color: white;
+    }
+    #line hr{
+        margin: 50px 20px;
+    }
+    #last{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    #last3 a{
+        display: block;
+    }
+    #last1{
+        height: 300px;
+        width: 2400px;
+        margin: 0 17px;
+    }
+    #last1 p{
+        margin: 10px 0;
+        
+    }
+    #last2{
+        margin-left: -10vw;
+        margin-top: 15px;
+        font-size: 20px;
+    }   
+    #last2 input{
+        padding: 1.5vw 10vw;
+        margin: 30px 0;
+    }
+    #last2 button{
+        padding: 17px 30px;
+        border-radius: 30px;
+        background-color: transparent;
+    }
+    #last2 button:hover{
+        background-color: rgb(16, 41, 16);
+        transition: 0.8s ease;
+        color: white;
+    }
+    /* #last3{
+    
+    } */
+    #last3 a{
+     margin: 1.2vw 5vw;   
+     font-size: 15px;
+     text-decoration: underline;
+    }
+    
+    @media screen and (max-width:500px){
+        #top a{
+            margin: 0 1px;
+            font-size: 13px;
+        }
+        #title h1{
+            font-size: 30px;
+        }
+        #mid {
+            display: block;
+        }
+        #mid h1{
+            font-size: 40px;
+            line-height: 46px;
+            margin-top: -20vw;
+            text-align: center;
+        }
+        #first button{
+            margin: 20px 60px;
+            padding: 10px 30px;
+            font-size: 13px;
+        }
+        #second img{
+            height: 300px;
+            width: 270px;
+        }
+        #s1 h1 {
+            margin: 30px 20px;
+            font-size: 30px;
+        }
+        #third{
+            display: block;   
+            margin-left: 15px;
+        }
+        #third #f1 img{
+            
+            height: 300px;
+            width: 280px;
+        }
+        #third #f1 h1{
+            font-size: 23px;
+        }
+        #third #f2 img{
+            
+            height: 350px;
+            width: 280px;
+        }
+        #third #f2 h1{
+            font-size: 23px;
+        }
+        #third #f3 img{
+            
+            height: 300px;
+            width: 280px;
+        }
+        #third #f3 h1{
+            font-size: 23px;
+        }
+        #fourth #f1 img {
+            height: 350px;
+            width: 280px;
+            margin: 20px 15px;
+        }
+        #fourth {
+            height: 1450px;
+        }
+        #main{
+            display: block;
+        }
+        #main #f2{
+            margin-left: 15px;
+        }
+        #main #f2 h1 {
+            font-size: 46px;
+            line-height: 40px;
+            margin-top: -60vw;
+        }
+        #main #f2 p {
+            font-size: 23px;
+            margin-top: 20px;
+        }
+        #for{
+            font-size: 15px;
+        }
+        #frl{
+            display: block;
+        }
+        #f2f{
+            display: block;
+        }
+        #f2f #f1{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        #f2f #f2{
+        display: block;
+        margin-left: 5px;
+       }
+       #f2img1 img {
+        height: 300px;
+        width: 280px;
+        margin: 0 10px;
+        }
+        #f2f #f2 p {
+            margin: 10px 12px;
+        }
+        #f2img2 img {
+            height: 300px;
+            width: 280px;
+            margin: 0 10px;
+        }
+        #last{
+            display: block;
+        }
+        #last2 {
+            margin-left: 5vw;
+        }
+        #last2 button{
+            padding: 10px 25px;
+            margin: 1px 0;
+        }
+        #last3{
+           margin-top: 30px;
+        }
+        #last3 a{
+            margin: 10px 22px;
+            font-size: 13px;
+         }
+    }
+        
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1>Alta Loma</h1>
+    </div>
+    <div id="top">
+        <i class="ri-instagram-line"></i>
+        <nav>
+            <a href="#">Shop</a>
+            <a href="#">Journal</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <i class="ri-shopping-cart-2-fill"></i>
+    </div>
+    <div id="mid">  
+        <div id="first">
+            <h1>Soap for every body</h1>
+            <button>shop now</button>
+        </div>
+        <div id="second">
+            <img src="bg1.png" alt="">
+        </div>
+    </div>
+    <div id="s1">
+        <h1>Shop our favorite soaps</h1>
+    </div>
+    <div id="third">
+        <div id="f1">
+            <img src="bg2.png" alt="">
+            <h1>Eucalyptus and Citrus</h1>
+        </div>
+        <div id="f2">
+            <img src="bg3.png" alt="">
+            <h1>Sage and Cedarwood</h1>
+        </div>
+        <div id="f3">
+            <img src="bg4.png" alt="">
+            <h1>Sandalwood and Rose</h1>
+        </div>
+    </div>
+    <div id="btn">
+        <button>Explore all soaps</button>
+    </div>
+    <div id="fourth">
+        <div id="main">
+            <div id="f1">
+                <img src="bg5.png" alt="">
+            </div>
+            <div id="f2">
+                <h1>Made to be absorbed</h1>
+                <p>Ingredients derived from nature and for the benefit of your body.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div id="for">
+            <h1>Forever & Always</h1>
+        </div>
+        <div id="frl">
+            <div id="frl1">
+                <h2>Pure Ingredients</h2><br>
+                <p>Don’t worry about sounding professional. Sound like you. There are over 1.5 billion websites out there do.</p>
+                <hr>
+            </div>
+            <div id="frl2">
+                <h2>Small Batch</h2><br>
+                <p>Don’t worry about sounding professional. Sound like you. There are over 1.5 billion websites out there do.</p>
+                <hr>
+            </div>
+            <div id="frl3">
+                <h2>Cruelty Free</h2><br>
+                <p>Don’t worry about sounding professional. Sound like you. There are over 1.5 billion websites out there do.</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div id="f2f">
+        <div id="f1">
+            <h1>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. </h1>
+            <button>All Posts</button>
+        </div>
+        <div id="f2">
+            <div id="f2img1">
+                <img src="bg6.png" alt="">
+                <p>My soap making process</p>
+                
+            </div>
+            <div id="f2img2">
+                <img src="bg7.png" alt="">
+                <p>Introducing our new Rose Geranium Facial Serum</p>
+            </div>
+        </div>
+    </div>
+    <div id="line">
+        <hr>
+    </div>
+    <div id="last">
+        <div id="last1">
+            <img src="bg8.png" alt="">
+            <p>Follow us on <u>Instagram</u></p>
+        </div>
+        <div id="last2">
+            <p>Sign up to receive updates and 10% off your first purchase.</p>
+            <input type="email" placeholder="Email address"><br>
+            <button>SIGN UP</button>
+        </div>
+        <div id="last3">
+            <a href="#">Shop</a>
+            <a href="#">Journal</a>
+            <a href="#">About</a>
+            <a href="#">Contact </a>
+            <a href="#">Shipping and Returns</a>
+            <a href="#">Stockists</a>
+            <a href="#">Made with Squarespace</a>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body> 
+</html>
